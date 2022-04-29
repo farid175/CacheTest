@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryApp", "InMemoryApp\InMemoryApp.csproj", "{895F33D3-8B2B-41D2-B5BC-9E6A29D24529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDistributedCaheApp", "IDistributedCaheApp\IDistributedCaheApp.csproj", "{6C6A3522-7128-4ECA-AB2E-E94E610F1D89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDistributedCaheApp", "IDistributedCaheApp\IDistributedCaheApp.csproj", "{6C6A3522-7128-4ECA-AB2E-E94E610F1D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExchangeApiApp", "RedisExchangeApiApp\RedisExchangeApiApp.csproj", "{BF245B99-FE9F-4D52-9E76-9F34C296F125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6C6A3522-7128-4ECA-AB2E-E94E610F1D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6A3522-7128-4ECA-AB2E-E94E610F1D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6A3522-7128-4ECA-AB2E-E94E610F1D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF245B99-FE9F-4D52-9E76-9F34C296F125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF245B99-FE9F-4D52-9E76-9F34C296F125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF245B99-FE9F-4D52-9E76-9F34C296F125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF245B99-FE9F-4D52-9E76-9F34C296F125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
