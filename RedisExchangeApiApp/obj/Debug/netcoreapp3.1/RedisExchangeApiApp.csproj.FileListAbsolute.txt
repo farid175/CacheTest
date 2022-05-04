@@ -134,3 +134,4 @@ C:\Users\farid.al\source\repos\Cache\RedisExchangeApiApp\obj\Debug\netcoreapp3.1
 C:\Users\farid.al\source\repos\Cache\RedisExchangeApiApp\obj\Debug\netcoreapp3.1\Razor\Views\String\Show.cshtml.g.cs
 C:\Users\farid.al\source\repos\Cache\RedisExchangeApiApp\obj\Debug\netcoreapp3.1\Razor\Views\ListType\Index.cshtml.g.cs
 C:\Users\farid.al\source\repos\Cache\RedisExchangeApiApp\obj\Debug\netcoreapp3.1\Razor\Views\SetType\Index.cshtml.g.cs
+C:\Users\farid.al\source\repos\Cache\RedisExchangeApiApp\obj\Debug\netcoreapp3.1\Razor\Views\SortedSetType\Index.cshtml.g.cs
