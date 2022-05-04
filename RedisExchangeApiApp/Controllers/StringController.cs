@@ -47,11 +47,13 @@ namespace RedisExchangeApiApp.Controllers
             db.StringDecrementAsync("users", 1).Wait();// .Result verse idik geri deyer donecekdi  deceremengt azaldir 1
             var users = db.StringGet("users");
             var pr = db.StringGet("product");
+            var length = db.StringLength("name");
 
             var product = JsonConvert.DeserializeObject<Product>(pr.ToString());
             ViewBag.name = name;
             ViewBag.users = users;
             ViewBag.product = product;
+            ViewBag.length = length;
 
             return View();
         }
