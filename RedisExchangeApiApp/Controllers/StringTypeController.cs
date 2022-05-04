@@ -11,13 +11,13 @@ using System.Threading.Tasks;
 
 namespace RedisExchangeApiApp.Controllers
 {
-    public class StringController : Controller
+    public class StringTypeController : Controller
     {
 
         private readonly RedisService _redisService;
         private readonly IDatabase db;
 
-        public StringController(RedisService redisService)
+        public StringTypeController(RedisService redisService)
         {
             _redisService = redisService;
             db = _redisService.GetDB(0);
