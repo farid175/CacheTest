@@ -1,0 +1,33 @@
+﻿@model Dictionary<string,string>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<form asp-controller="HashType" asp-action="Add" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="name" />
+    <input type="text" name="value" />
+    <button type="submit">Add</button>
+</form>
+
+
+
+@foreach (var item in Model)
+{
+    <table class="table-success">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@item.Key</td>
+                <td>@item.Value</td>
+                <td><a asp-controller="HashType" asp-action="DeleteItem" asp-route-key="@item.Key">Sil</a></td>
+            </tr>
+        </tbody>
+    </table>
+}
+
